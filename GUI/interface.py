@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 """ Interfaces """
 
 # configuração do tema da janela
-sg.theme('DarkAmber')
+sg.theme('DarkBrown4')
 
 # definição das abas
 aba_salas =   [ [ sg.Text('Gerenciamento de salas', size=(800,25)) ] ]

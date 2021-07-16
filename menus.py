@@ -12,14 +12,14 @@ def menuPrincipal():
         print("DIGITE  UMA  OPÇÃO")
         darEspaco()
 
-        print('[ 1 ]     Gerenciamento de salas')
-        print('[ 2 ]   Gerenciamento de ingressos')
-        print('[ 3 ]    Gerenciamento de sessão')
-        print('[ 3 ]             Sair')
+        print('[ 1 ] Gerenciamento de salas')
+        print('[ 2 ] Gerenciamento de ingressos')
+        print('[ 3 ] Gerenciamento de sessão')
+        print('[ 4 ] Sair')
 
 
         darEspaco()
-        escolha = int(input('Digite sua escolha ->'))
+        escolha = int(input('Digite sua escolha -> '))
         darEspaco()
 
         if escolha == 1:
@@ -41,16 +41,16 @@ def menuSalas():
         print("DIGITE  UMA  OPÇÃO")
         darEspaco()
 
-        print('[ 1 ]     Cadastrar de nova sala')
-        print('[ 2 ]     Mostrar todas as salas')
-        print('[ 3 ]       Mostrar uma sala')
-        print('[ 4 ]         Excluir sala')
-        print('[ 5 ]  Alterar cadastro de uma sala')
-        print('[ 6 ]             Sair')
+        print('[ 1 ] Cadastrar de nova sala')
+        print('[ 2 ] Mostrar todas as salas')
+        print('[ 3 ] Mostrar uma sala')
+        print('[ 4 ] Excluir sala')
+        print('[ 5 ] Alterar cadastro de uma sala')
+        print('[ 6 ] Sair')
 
 
         darEspaco()
-        escolha = int(input('Digite sua escolha ->'))
+        escolha = int(input('Digite sua escolha -> '))
         darEspaco()
 
         if escolha == 1:
@@ -69,4 +69,4 @@ def menuSalas():
 
 
 def darEspaco():
-    print("=" *30)
+    print("=" *40)
