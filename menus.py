@@ -64,9 +64,5 @@ def menuSalas():
         elif escolha == 5:
             print("EM CONSTRUÇÃO")
 
-
-
-
-
 def darEspaco():
     print("=" *40)
